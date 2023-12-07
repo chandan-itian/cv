@@ -28,7 +28,7 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="https://chandan-itian.github.io/weather/">Weather</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://chandan-itian.github.io/weather/">Weather</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
@@ -47,7 +47,7 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Weather App</h2>
+                                            <h2 class="fw-bolder"><span class="text-gradient d-inline"><span id="element1"></span></span></h2>
                                             <p>This app shows you the weather report of any location where you want to search for.<a href="https://chandan-itian.github.io/weather/" class="btn btn-primary stretched-link"> Link </a></p>
                                         </div>
                                         <img style="max-width:40%;" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9ebc2b83276015.5d376acfeb659.png" alt="..." />
@@ -59,7 +59,7 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Smart Home Automation</h2>
+                                            <h2 class="fw-bolder"><span class="text-gradient d-inline"><span id="element"></span></span></h2>
                                             <p>Innovative Smart Home Automation professional with expertise in conceiving and executing projects. Proficient in integrating IoT devices for lighting, climate, security, and entertainment. Skilled in programming and optimizing systems for energy efficiency. Successfully manages end-to-end project lifecycles, delivering seamless automation experiences that enhance residential living.<a href="https://sites.google.com/view/iot-smart-home-automation/home" class="btn btn-primary stretched-link"> Link </a></p>
                                         </div>
                                         <img style="max-width:40%;" src="https://media.istockphoto.com/vectors/smart-house-smart-home-security-automation-system-concept-gray-vector-id1161976255?k=6&m=1161976255&s=612x612&w=0&h=8fb14AtmwBXH9nLGqc5FKobk4ITdl8Lxu8Kl848mn3c=" alt="..." />
@@ -97,6 +97,18 @@
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- typed JS-->
+		<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+		<script>
+		var typed = new Typed('#element', {
+		strings: ['Smart Home Automation' ],
+		typeSpeed: 50,
+		});
+		var typed = new Typed('#element1', {
+		strings: ['Weather App' ],
+		typeSpeed: 50,
+		});
+  </script>
         <!-- Core theme JS-->
         <script src="scripts.js"></script>
     </body>
